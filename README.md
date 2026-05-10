@@ -1,8 +1,6 @@
  Flutter Chat App
 A real-time chat application built with Flutter and Firebase, supporting both group chat and private messaging between users.
 
-📱 Screenshots
-LoginRegisterUsers ListChatShow ImageShow ImageShow ImageShow Image
 
 ✨ Features
 
@@ -38,34 +36,6 @@ Flutter SDK >=3.0.0
 Dart SDK >=3.0.0
 Firebase project set up
 
-Installation
-
-Clone the repository
-
-bashgit clone https://github.com/your-username/chat-app.git
-cd chat-app
-
-Install dependencies
-
-bashflutter pub get
-
-Set up Firebase
-
-Go to Firebase Console
-Create a new project
-Enable Authentication (Email/Password)
-Enable Cloud Firestore
-Download google-services.json and place it in android/app/
-Run:
-
-
-
-bashflutterfire configure
-
-Run the app
-
-bashflutter run
-
 🗄️ Firestore Structure
 users/
   └── {userId}/
@@ -100,11 +70,8 @@ yamldependencies:
 
 
 👨‍💻 Author
-Your Name
-
 GitHub: @your-username
 Email: your-email@example.com
-
 
 📄 License
 This project is licensed under the MIT License — see the LICENSE file for details.
